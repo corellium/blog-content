@@ -8,6 +8,8 @@
 // unpacking Android applications by
 // Tim 'diff' Strazzere, <tim -at- corellium.com> <diff -at- protonmail.com>
 // Based off older code and concepts from lich4/lichao890427
+//
+// Corresponding blog https://corellium.com/blog/android-frida-finding-hooks
 
 // Helper function for creating a native function for usage
 function getNativeFunction(name, ret, args) {
